@@ -1,11 +1,11 @@
 **/.DS_Store
 
 
-find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+# find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 
-git commit -m "Remove .DS_Store from everywhere"
+# git commit -m "Remove .DS_Store from everywhere"
 
-git push origin master
+# git push origin master
 
 # Logs
 logs
@@ -112,4 +112,4 @@ dist
 # TernJS port file
 .tern-port
 .DS_Store
-.DS_Store
+
