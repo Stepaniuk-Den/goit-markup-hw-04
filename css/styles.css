@@ -325,6 +325,46 @@ body {
   font-size: 16px;
 }
 
+.social {
+  margin-top: 8px;
+  gap: 24px;
+}
+
+.social-link {
+  display: flex;
+  background-color: var(--alt-secondary-color-text);
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--alt-secondary-color-btn);
+}
+
+.instagram-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.twitter-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.facebook-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.linkedin-icon {
+  width: 16px;
+  height: 16px;
+}
+
 /* Footer */
 .footer {
   padding: 100px 0 100px 0;
