@@ -147,7 +147,15 @@ body {
 
 .hero {
   padding: 188px 0;
-  background-color: var(--secondary-color-text);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: rgba(46, 47, 66, 0.7); */
 
   text-align: center;
 }
@@ -242,6 +250,37 @@ body {
 .activity .item-title {
   text-align: left;
   margin-bottom: 8px;
+}
+
+.antenna-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.clock-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.diagram-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.astronaut-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.icon-container {
+  display: flex;
+  background-color: var(--third-color-text);
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
 }
 
 .products.section {
