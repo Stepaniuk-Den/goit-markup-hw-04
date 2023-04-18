@@ -344,24 +344,34 @@ body {
   background-color: var(--alt-secondary-color-btn);
 }
 
-.instagram-icon {
+.social-icon {
   width: 16px;
   height: 16px;
 }
 
-.twitter-icon {
-  width: 16px;
-  height: 16px;
+.customers {
+  padding-bottom: 120px;
 }
 
-.facebook-icon {
-  width: 16px;
-  height: 16px;
+.customers .list {
+  display: flex;
+  gap: 24px;
 }
 
-.linkedin-icon {
-  width: 16px;
-  height: 16px;
+.customers-list {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.customers-icon {
+  width: 104px;
+  height: 56px;
+  /* padding: 16px 32px; */
 }
 
 /* Footer */
