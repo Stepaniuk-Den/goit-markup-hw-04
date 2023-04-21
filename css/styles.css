@@ -391,8 +391,8 @@ body {
   border: 1px solid var(--secondary-logo-icon-color);
 }
 
-.customers-icon:hover,
-.customers-icon:focus {
+.customers-list:hover .customers-icon,
+.customers-list:focus .customers-icon {
   fill: var(--secondary-logo-icon-color);
 }
 
