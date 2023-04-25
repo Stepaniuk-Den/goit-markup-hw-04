@@ -238,6 +238,7 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* ==================== Activity ==================== */
 .activity {
   padding: 120px 0;
 }
@@ -277,6 +278,7 @@ body {
   justify-content: center;
 }
 
+/* ==================== Products ==================== */
 .products.section {
   padding-bottom: 120px;
 }
@@ -351,10 +353,10 @@ body {
 }
 
 .social-icon {
-  width: 16px;
-  height: 16px;
+  fill: var(--third-color-text);
 }
 
+/* ==================== Customers ==================== */
 .customers {
   padding-bottom: 120px;
 }
