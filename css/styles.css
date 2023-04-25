@@ -207,7 +207,7 @@ body {
   background-color: var(--alt-secondary-color-btn);
 }
 
-/* Section */
+/* ==================== Section ==================== */
 
 .section {
   padding-top: 120px;
@@ -266,21 +266,6 @@ body {
   height: 64px;
 }
 
-/* .clock-icon {
-  width: 64px;
-  height: 64px;
-}
-
-.diagram-icon {
-  width: 64px;
-  height: 64px;
-}
-
-.astronaut-icon {
-  width: 64px;
-  height: 64px;
-} */
-
 .icon-container {
   display: flex;
   background-color: var(--third-color-text);
@@ -304,7 +289,7 @@ body {
 .products .image {
   flex-basis: calc((100% - 48px) / 3);
 }
-
+/* ==================== Team ==================== */
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -316,7 +301,7 @@ body {
   gap: 24px;
 }
 
-.personal {
+.team-personal {
   flex-basis: calc((100% - 72px) / 4);
   background-color: var(--alt-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -324,7 +309,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.personal .list-title {
+.team-personal .list-title {
   margin-bottom: 8px;
 }
 
@@ -345,18 +330,23 @@ body {
   justify-content: center;
 }
 
-.social-link {
-  display: flex;
-  background-color: var(--alt-secondary-color-text);
+.social-item {
   width: 40px;
   height: 40px;
+}
+
+.social-links {
+  display: flex;
+  background-color: var(--alt-secondary-color-text);
+  width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-links:hover,
+.social-links:focus {
   background-color: var(--alt-secondary-color-btn);
 }
 
