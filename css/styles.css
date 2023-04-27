@@ -524,7 +524,7 @@ body {
   row-gap: 48px;
 }
 
-/* List Project */
+/* ==================== List projects ==================== */
 .projects {
   display: flex;
   flex-wrap: wrap;
